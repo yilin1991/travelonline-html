@@ -48,7 +48,60 @@
 	
 	.indexrec .indexrectop p{font-size: 20px;line-height: 30px;}
 	.indexrec .indexrectop span{width: 40px;height: 2px;}
-	.indexrec .indexrecbox{margin-top: 30px;}
+	
+	
+	.indexrec .indexrecbox{margin-top: 0; height: 300px;}
+	 .indexrec .indexrecbox .indexrecswiper {
+	height: 100%;
+}
+.indexrec .indexrecswiper .swiper-slide {
+	height: 100%;
+}
+
+.indexrecswiper .swiper-slide a {height: 100%;}
+
+
+.indexrecswiper .swiper-slide .recswipertext {
+
+	bottom: 0;
+	
+}
+
+.indexrecswiper .swiper-slide .recswipertext p.name {
+	width: 100%;
+	padding: 0 35px 0 15px;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 10px;
+
+}
+
+.indexrecswiper .swiper-slide .recswipertext .remark {
+	width: 100%;
+	padding: 10px 15px;
+	text-align: justify;
+	background: rgba(255, 255, 255, 0.7);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.indexrecswiper .swiper-slide .recswipertext .remark p {
+
+	font-size: 14px;
+	line-height: 24px;
+	height: 48px;
+	margin-bottom: 0;
+}
+
+.indexrecswiper .swiper-slide a:hover {
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	
+}
+
+
 	.indexrec .indexrecbox .recnextbtn{display: none;}
 	.indexrec .indexrecbox .recprevbtn{display: none;}
 	

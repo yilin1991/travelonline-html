@@ -4,7 +4,6 @@
 	width: 100%;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
-	
 }
 
 .indexbanner .swiper-container {
@@ -18,7 +17,10 @@
 	text-align: center;
 }
 
-.indexbanner .swiper-container .swiper-slide img{display: inline-block;width: 100%;}
+.indexbanner .swiper-container .swiper-slide img {
+	display: inline-block;
+	width: 100%;
+}
 
 .indexbanner .bannernextbtn,
 .bannerprevbtn {
@@ -40,7 +42,8 @@
 /*首页特别推荐*/
 
 .indexrec {
-	overflow: hidden;
+	margin: 0;
+	padding: 0 5%;
 }
 
 .indexrec .indexrectop {
@@ -70,7 +73,135 @@
 	margin-top: 100px;
 }
 
-.indexrec .indexrecbox .recnextbtn,
+ .indexrec .indexrecbox .indexrecswiper {
+	width: 100%;
+}
+
+.indexrecswiper .swiper-slide {
+	padding: 30px 0;
+}
+
+.indexrecswiper .swiper-slide a {
+	display: block;
+	width: 100%;
+	position: relative;
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	overflow: hidden;
+}
+
+.indexrecswiper .swiper-slide a>img {
+	display: block;
+	width: 100%;
+}
+
+.indexrecswiper .swiper-slide a:hover {
+	z-index: 99;
+}
+
+.indexrecswiper .swiper-slide a:hover {
+	transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+
+.indexrecswiper .swiper-slide .recswipertext {
+	position: absolute;
+	width: 100%;
+	bottom: -102px;
+	transition: bottom 1s;
+	-moz-transition: bottom 1s;
+	-webkit-transition: bottom 1s;
+}
+
+.indexrecswiper .swiper-slide .recswipertext p.name {
+	width: 100%;
+	padding: 0 35px 0 15px;
+	font-size: 24px;
+	line-height: 40px;
+	color: #FFFFFF;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 25px;
+	transition: margin-bottom 1s;
+	-webkit-transition: margin-bottom 1s;
+	-moz-transition: margin-bottom 1s;
+}
+
+.indexrecswiper .swiper-slide .recswipertext .remark {
+	width: 100%;
+	padding: 15px;
+	text-align: justify;
+	background: rgba(255, 255, 255, 0.7);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.indexrecswiper .swiper-slide .recswipertext .remark p {
+	color: #595757;
+	font-size: 14px;
+	line-height: 24px;
+	overflow: hidden;
+	height: 72px;
+	margin-bottom: 0;
+}
+
+.indexrecswiper .swiper-slide a:hover .recswipertext {
+	bottom: 0;
+	transition: bottom 1s;
+	-moz-transition: bottom 1s;
+	-webkit-transition: bottom 1s;
+}
+
+.indexrecswiper .swiper-slide a:hover .recswipertext p.name {
+	margin-bottom: 0;
+	transition: margin-bottom 1s;
+	-webkit-transition: margin-bottom 1s;
+	-moz-transition: margin-bottom 1s;
+}
+
+.indexrec .recmore {
+	width: 100%;
+	display: table;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+.indexrec .recmore a {
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	background-image: url(../img/index/indexrecmore1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+}
+
+.indexrec .recmore a:hover {
+	background-image: url(../img/index/indexrecmore1_1.png);
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+}
+
+
+/*.indexrecswiper .swiper-slide a:hover .recswipertext .remark p{}*/
+
+
+/*.indexrec .indexrecbox .recnextbtn,
 .indexrec .indexrecbox .recprevbtn {
 	width: 120px;
 	height: 90px;
@@ -142,33 +273,7 @@
 	transition: height 0.5s;
 }
 
-.indexrec .recmore {
-	width: 100%;
-	display: table;
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 80px;
-}
-
-.indexrec .recmore a {
-	display: inline-block;
-	width: 140px;
-	height: 140px;
-	background-image: url(../img/index/indexrecmore1.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	transition: background-image 0.5s;
-	-webkit-transition: background-image 0.5s;
-	-moz-transition: background-image 0.5s;
-}
-
-.indexrec .recmore a:hover {
-	background-image: url(../img/index/indexrecmore1_1.png);
-	transition: background-image 0.5s;
-	-webkit-transition: background-image 0.5s;
-	-moz-transition: background-image 0.5s;
-}
+*/
 
 .themebody {
 	width: 100%;
@@ -504,4 +609,3 @@
 	display: inline-block;
 	max-width: 80%;
 }
-
