@@ -1,0 +1,55 @@
+
+
+@media only screen and (max-width: 992px) {
+	
+.navbar-myheader .navrightimg{display: none;}
+.navbar-myheader .navlink li a{padding: 25px 20px;}
+.indexbanner .bannernextbtn,
+	.bannerprevbtn {
+		display: none;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+	.headertop  .navbar-collapse{border: none;}
+	.headertop .headerlink{display: block;background-color: #999;margin: 0 -15px;}
+	.headertop .topright{display: none;}
+	.headertop{height: 60px;}
+	.headertop .navbar-brand{height: 60px;padding: 10px;}
+	
+	
+	
+	.headertop .navbar-brand img{height: 100%;}
+	.headertop .headerlink li{border-bottom: solid 1px #dedede;}
+	.headertop .headerlink li a{text-align: center;line-height: 30px;font-size: 16px;color: #FFFFFF;}
+
+	.indexbanner .swiper-container .swiper-slide {
+		background-size: auto 100%;
+	}
+	
+	.headertop .navbar-toggle{display: block; margin-top: 12px;}
+	.headertop .navbar-toggle .icon-bar{background-color: #666;}
+	.headertop .navbar-toggle .icon-bar + .icon-bar{margin-top: 6px;}
+	
+	
+	
+	.navbar-myheader{display: none;}
+	
+	
+	.navbar-myheader .navbar-toggle .icon-bar{background-color: #FFFFFF;}
+	.navbar-myheader .navbar-toggle .icon-bar + .icon-bar{margin-top: 6px;}
+	
+	.indexrec .indexrectop{margin-top: 30px;}
+	
+	.indexrec .indexrectop p{font-size: 20px;line-height: 30px;}
+	.indexrec .indexrectop span{width: 40px;height: 2px;}
+	.indexrec .indexrecbox{margin-top: 30px;}
+	.indexrec .indexrecbox .recnextbtn{display: none;}
+	.indexrec .indexrecbox .recprevbtn{display: none;}
+	
+}

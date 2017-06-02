@@ -1,0 +1,58 @@
+li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: "微软雅黑","microsoft yahei",arial;}
+
+
+.headertop{height: 100px;border: none;margin-bottom: 0;z-index: 9999;position: relative;}
+
+.headertop .navbar-brand{height: auto;}
+.headertop .headerlink{display: none;}
+.headertop .topright{display: table; height: 100%;}
+.headertop .topright li{display: block;clear: both;}
+.headertop .topright .topsearch{ width: 350px;height: 34px;background-color: #e5e5e5;border-radius: 5px;margin-top: 18px;}
+.headertop .topright .topsearch .searchico{display: block;float: left; margin-top: 4px;margin-left: 10px;}
+.headertop .topright .topsearch .searchline1{display: block;float: left;width: 1px;height: 24px;margin: 5px;background-color: #339e94;}
+.headertop .topright .topsearch .txtsearch{display: block;float: left; width: 250px;appearance: none;-webkit-appearance: none;-moz-appearance: none;height: 100%;border: none;background:rgba(255,255,255,0);margin: 0 5px;font-size: 16px;color: #a4a4a4;outline: none;}
+.headertop .topright .topsearch .searchline2{display: block;float: left;width: 1px;height: 24px;margin: 5px;background-color: #FFFFFF;}
+.headertop .topright .topsearch a.searchbtn{display: block;float: left; width: 30px;height: 30px;text-align: center;line-height: 30px;padding: 0;}
+.headertop .topright .topsearch a.searchbtn img{display: inline-block;}
+.topbottom{width: 100%; height: 25px;margin-top: 5px;line-height: 25px;color: #595757;font-size: 14px;text-align: right;}
+.headertop .topright .topbottom a{display: inline-block; color: #595757;padding: 0;}
+.headertop .topright .topbottom a:hover{color: #13b5b1;text-decoration: none;}
+.headertop .topright .topbottom a:last-child{margin-left: 15px;}
+.headertop .topright .topbottom span{padding: 0 3px;}
+.headertop .navbar-toggle{display: none; }
+
+
+.navbar-myheader{background-color: #13b5b1;box-shadow: 0 4px 10px rgba(0,0,0,0.5); border-radius: 0; }
+.navbar-myheader .navlink li a{color: #FFFFFF;padding: 25px 30px;font-size: 16px;}
+.navbar-myheader .navlink li a:hover{background: rgba(255,255,255,1);color: #13b5b1;}
+.navbar-myheader .navrightimg li a{padding-top: 6px;padding-bottom: 6px;}
+.navbar-myheader .navrightimg li a:hover{background: none;}
+.navbar-myheader .navbar-collapse{padding-left: 0;padding-right: 0;}
+
+
+
+.footer{width: 100%;height: 570px;background: url(../img/public/footerbg.jpg) no-repeat top center;}
+
+.footer .footertop{margin-top: 80px;}
+.footer .footertop p{color: #043884;line-height: 30px;font-size: 14px;}
+.footer .footertop p span{padding-right: 15px;}
+
+.footer .footerlist{padding: 0;margin-top: 120px;}
+.footer .footerlist li{float: left;margin-right: 50px;}
+.footer .footerlist .footerbox{width: 190px;height: 200px; background: rgba(255,255,255,0.2);padding: 0 15px;}
+
+.footer .footerlist li p{font-size: 22px;color: #ffffff;line-height: 30px;margin-top: 15px;}
+.footer .footerlist li  a{display: block;width: 100%; font-size: 14px; color: #FFFFFF;line-height: 25px;text-decoration: none;}
+.footer .footerlist li  a:hover{color: #13B5B1;}
+
+
+
+.copyright{display: table; background-color: #339e94;width: 100%;text-align: center;padding: 25px 0;}
+
+
+.copyright p{color: #FFFFFF;font-size: 12px;line-height: 20px;margin-bottom: 0;}
+.copyright p a{color: #FFFFFF;text-decoration: none;}
+.copyright p img{display: inline-block;}
+.copyright p:nth-child(2){margin-top: 10px;margin-bottom: 10px;}

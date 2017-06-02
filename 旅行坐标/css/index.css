@@ -1,0 +1,507 @@
+/*首页Banner*/
+
+.indexbanner.container-fluid {
+	width: 100%;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	
+}
+
+.indexbanner .swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.indexbanner .swiper-container .swiper-slide {
+	background-position: top center;
+	background-size: 100% auto;
+	text-align: center;
+}
+
+.indexbanner .swiper-container .swiper-slide img{display: inline-block;width: 100%;}
+
+.indexbanner .bannernextbtn,
+.bannerprevbtn {
+	width: 50px;
+	height: 99px;
+	margin-top: -50px;
+	background-size: 100% 100%;
+}
+
+.indexbanner .bannerprevbtn {
+	background-image: url(../img/index/indexbannerleft.png)
+}
+
+.indexbanner .bannernextbtn {
+	background-image: url(../img/index/indexbannerright.png)
+}
+
+
+/*首页特别推荐*/
+
+.indexrec {
+	overflow: hidden;
+}
+
+.indexrec .indexrectop {
+	width: 100%;
+	display: table;
+	margin-top: 130px;
+	text-align: center;
+}
+
+.indexrec .indexrectop p {
+	font-size: 34px;
+	color: #595757;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+.indexrec .indexrectop span {
+	display: inline-block;
+	width: 70px;
+	height: 3px;
+	background-color: #ff0000;
+}
+
+.indexrec .indexrecbox {
+	width: 100%;
+	position: relative;
+	margin-top: 100px;
+}
+
+.indexrec .indexrecbox .recnextbtn,
+.indexrec .indexrecbox .recprevbtn {
+	width: 120px;
+	height: 90px;
+	margin-top: -45px;
+	background-size: 100% 100%;
+	opacity: 1;
+	z-index: 99999;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+.indexrec .indexrecbox .recprevbtn {
+	background-image: url(../img/index/indexrecleft.png);
+	left: -60px;
+}
+
+.indexrec .indexrecbox .recnextbtn {
+	background-image: url(../img/index/indexrecright.png);
+	right: -60px;
+}
+
+.indexrec .indexrecbox .swiper-slide .recswipertext {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.indexrec .indexrecbox .swiper-slide .recswipertext p.name {
+	color: #FFFFFF;
+	font-size: 30px;
+	line-height: 50px;
+	padding: 15px 20px;
+	margin-bottom: 0;
+}
+
+.indexrec .indexrecbox .swiper-slide .recswipertext .remark {
+	background: rgba(255, 255, 255, .7);
+	padding: 0 15px;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s;
+}
+
+.indexrec .indexrecbox .swiper-slide {
+	overflow: hidden;
+	z-index: 99;
+}
+
+.indexrec .indexrecbox .swiper-slide .recswipertext .remark p {
+	margin-bottom: 0;
+	word-break: break-all;
+	word-break;
+	: break-all;
+	font-size: 16px;
+	line-height: 30px;
+	height: 90px;
+	overflow: hidden;
+	margin: 15px 0;
+}
+
+.indexrec .indexrecbox .swiper-slide:hover .recswipertext .remark {
+	height: 120px;
+	transition: height 0.5s;
+}
+
+.indexrec .recmore {
+	width: 100%;
+	display: table;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.indexrec .recmore a {
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	background-image: url(../img/index/indexrecmore1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+}
+
+.indexrec .recmore a:hover {
+	background-image: url(../img/index/indexrecmore1_1.png);
+	transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+}
+
+.themebody {
+	width: 100%;
+	display: table;
+	background-color: #e0f1ee;
+	height: 500px;
+	box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+	-webkit-box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+	-moz-box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+	padding-bottom: 100px;
+}
+
+.themebody .themetop {
+	width: 100%;
+	display: table;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.themebody .themetop p {
+	font-size: 34px;
+	color: #595757;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+.themebody .themetop span {
+	display: inline-block;
+	width: 50px;
+	height: 3px;
+	background-color: #13b5b1;
+}
+
+.themebody .themelist {
+	width: 100%;
+	display: table;
+	margin-top: 60px;
+}
+
+.themebody .themelist .themelisttop {
+	width: 100%;
+	height: 70px;
+	border-bottom: solid 2px #bfbfbf;
+}
+
+.themebody .themelist .themelisttop span {
+	display: block;
+	float: left;
+	height: 70px;
+	color: #13b5b1;
+	font-size: 42px;
+	line-height: 70px;
+}
+
+.themebody .themelist .themelisttop a {
+	display: block;
+	float: right;
+	height: 40px;
+	color: #339e94;
+	font-size: 18px;
+	line-height: 40px;
+	background: url(../img/ico/indexthememoreico.png) no-repeat right center;
+	margin-top: 25px;
+	text-decoration: none;
+}
+
+.themebody .themelist .themelisttop a p {
+	padding-right: 45px;
+}
+
+.themebody .themelist .themebox {
+	width: 100%;
+	margin-left: 0;
+}
+
+.themebody .themelist .themebox .themeli {
+	padding: 0 10px;
+	margin-top: 20px;
+}
+
+.themebody .themelist .themebox .themeli a {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.themebody .themelist .themebox .themeli a img {
+	display: block;
+	max-width: 100%;
+}
+
+.themebody .themeli .detail {
+	width: 100%;
+	height: 110px;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.themebody .themeli .detail p {
+	display: block;
+	height: 100%;
+	background: url(../img/index/indexthemeflyico.png) no-repeat right center;
+	padding-right: 100px;
+	margin-bottom: 0;
+}
+
+.themebody .themeli .detail p span {
+	display: block;
+}
+
+.themebody .themeli .detail p span:nth-child(1) {
+	font-size: 22px;
+	line-height: 30px;
+	color: #2f374d;
+}
+
+.themebody .themeli .detail p span:nth-child(2) {
+	height: 44px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 22px;
+	margin-top: 10px;
+	opacity: 0;
+}
+
+.themebody .themeli:hover .detail {
+	background-color: #13b5b1;
+}
+
+.themebody .themeli:hover .detail p {
+	background: url(../img/index/indexthemeflyico1.png) no-repeat right center;
+}
+
+.themebody .themeli:hover .detail p span:nth-child(1) {
+	color: #FFFFFF;
+}
+
+.themebody .themeli:hover .detail p span:nth-child(2) {
+	opacity: 1;
+}
+
+.newslogin {
+	display: table;
+	width: 100%;
+	box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+	-webkit-box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+	-moz-box-shadow: 0 8px 10px -8px rgba(0, 0, 0, 0.4) inset;
+}
+
+
+/*.newslogin .row{margin-left: 0;margin-right: 0;}*/
+
+
+/*.newslogin .newsbody{display: table;}*/
+
+.newslogin .newsbody p.title {
+	font-size: 38px;
+	color: #595757;
+	text-align: center;
+	margin-top: 40px;
+	line-height: 60px;
+}
+
+.newslogin .newsbody .media-body h1 {
+	color: #595757;
+	padding-right: 70px;
+	overflow: hidden;
+}
+
+.newslogin .newsbody .media {
+	border-bottom: solid 2px #bfbfbf;
+	padding-bottom: 40px;
+	margin-top: 40px;
+}
+
+.newslogin .newsbody .media-body p {
+	color: #595757;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: justify;
+	padding-right: 70px;
+	margin-top: 20px;
+}
+
+.newslogin .newsbody .media-img {
+	padding-right: 0;
+}
+
+.newslogin .newsbody .media-img a {
+	display: block;
+}
+
+.newslogin .newsbody .media-img a img {
+	max-width: 220px;
+}
+
+.newslogin .newsbody a.newsmore {
+	display: block;
+	margin: 60px 0;
+	background: url(../img/ico/indexnewmore.png) no-repeat right center;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.newslogin .newsbody a.newsmore p {
+	padding-right: 25px;
+	color: #595757;
+}
+
+.newslogin .newsbody a.newsmore:hover p {
+	color: #13b5b1;
+}
+
+.newslogin .indexlogin .indexloginbox {
+	display: table;
+	width: 400px;
+	background-color: #eeeeee;
+	margin-top: 50px;
+}
+
+.newslogin .indexlogin .indexloginbox p.title {
+	font-size: 20px;
+	color: #595757;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.newslogin .indexlogin .indexloginbox .loginform {
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+}
+
+.newslogin .loginform .form-group label {
+	font-size: 20px;
+	color: #595757;
+	font-weight: 500;
+	padding-left: 10px;
+}
+
+.newslogin .loginform .form-group input {
+	height: 37px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	color: #9e9e9e;
+}
+
+.newslogin .loginform .btn {
+	display: block;
+	background-color: #13b5b1;
+	border-radius: 8px;
+	border: none;
+	color: #FFFFFF;
+	letter-spacing: 5px;
+	padding: 5px 25px;
+	font-size: 16px;
+}
+
+.newslogin .loginform .link {
+	width: 100%;
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.newslogin .loginform .link a {
+	display: inline-block;
+	font-size: 14px;
+	color: #13b5b1;
+	text-decoration: underline;
+	margin-left: 5px;
+	line-height: 25px;
+}
+
+.form-control:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.newslogin .share {
+	clear: both;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.newslogin .share a {
+	display: inline-block;
+	height: 100%;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	color: #151515;
+	margin: 0 5px;
+	font-size: 14px;
+}
+
+.newslogin .share a:hover {
+	text-decoration: none;
+}
+
+.newslogin .share a p {
+	padding-left: 42px;
+	line-height: 40px;
+}
+
+.newslogin .share a:nth-child(1) {
+	background-image: url(../img/ico/qqloginico.png);
+}
+
+.newslogin .share a:nth-child(2) {
+	background-image: url(../img/ico/wechatloginico.png);
+}
+
+.newslogin .share a:nth-child(3) {
+	background-image: url(../img/ico/weibologinico.png);
+}
+
+.wechatimg {
+	width: 100%;
+	display: table;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.wechatimg img {
+	display: inline-block;
+	max-width: 80%;
+}
+
